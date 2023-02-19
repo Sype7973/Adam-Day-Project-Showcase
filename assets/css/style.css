@@ -1,52 +1,110 @@
+:root {
+  --ai-font:'Mulish', sans-serif;
+}
 * {
-    box-sizing: border-box;
-    flex-direction: column;
-    display: flexbox;
-  }
-  
-  body {
-    font-family: century;
-    margin: 0;
-  }
-  
-  header {
-    padding: 60px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-  }
-  
-  .card {
-    border-style: solid;
-    border-width: 1px;
-    padding: 10px;
-    float: right;
-    width: 25%;
-  }
-  
-  .card header {
-    padding: 20px;
-  }
-  
-  .card p {
-    text-align: center;
-  }
-  
-  .card img {
-    width: 100%;
-  }
-  
-  /* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
-  @media screen and (max-width: 992px) {
-    .card{width: 50%;
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  background-image: url(../img/pexels-rovenimagescom-949587.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main {
+  display: block;
+}
+/* Header and card headers needs to be changed */
+header {
+  padding: 60px;
+  background: #f1f2f5;
+  color: #060118;
+  display: inline-block;
+  width: 100%;
+  font-style: bolder;
+  line-height: 80px;
+}
+h1{
+  display: flex;
+  font-family: var(--ai-font);
+  display: inline-block;
+}
+header p{
+  padding: 30px;
     
-      background-color: rgb(187, 10, 34);
-    }
-  }
-  /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
-  @media screen and (max-width: 768px) {
+}
+  /* Navigation links */
+nav {
+  display: block;
+  float: right;
+  font-family: var(--ai-font);
+}
+nav ul{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+nav li{
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: cadetblue;
+}
+article{
+  flex-wrap: wrap;
+  border: #a19bb8;
+  border-style: solid;
+  width: 100%;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+}
+article p{
+  text-align: center;
+  line-height: 80px;
+  font-family: var(--ai-font);
+  font-size: 20px;
+}
+article img{
+  max-width: 500px;
+  flex-wrap: wrap;
+    
+}
+.float-right{
+  float: right;
+  margin-top: 90px;
+  box-shadow: 10px 10px 10px;
+}
+  /* Images/Portfolio/About Me */
+section {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+section p{
+  font: var(--ai-font);
+  color: rgb(236, 229, 229);
+  font-weight: bold;
+}
+.card header {
+  padding: 20px;
+}
+  
+.card p {
+  text-align: left;
+  color: #f1f2f5;
+}
+
+@media screen and (max-width: 992px) {
+  .card{width: 50%;
+    
+}
+}
+@media screen and (max-width: 768px) {
     .card{width: 100%;
     
-      background-color: lightblue;
-    }
-    }
+}
+}

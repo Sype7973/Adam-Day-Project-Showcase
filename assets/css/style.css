@@ -15,6 +15,7 @@ body{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  /*Article background image positioning and border around cards */
 }
 article{
   border: #a19bb8;
@@ -41,9 +42,11 @@ h1 {
 }
 h2, h3 {
   font-size: var(--font-size-headings);
+  font-family: var(--ai-font);
 }
 
-/* card containers; main content positioning, style, and content style including images */
+/* card containers; main content positioning, style, and content style including images and opacity hover */
+/* card-1 Hover opacity */
 .card-1:hover{
   opacity: 100%;
 }
@@ -52,6 +55,10 @@ h2, h3 {
   background-color: var(--card-background-color);
   opacity: 80%;
   max-width: 100%;
+  font-family: var(--ai-font);
+}
+.card-1 h2{
+  padding: 10px;
 }
 .card-1 p{
   padding: 10px;
@@ -59,25 +66,24 @@ h2, h3 {
 .card-1 li{
   padding: 4px;
   margin-left: 5px;
-}
-
-.card-1:hover{
-  opacity: 100%;
+  
 }
 .card-2{
-  margin: 80px;
+  margin: 60px;
   background-color: var(--card-background-color);
   text-align: center;
 }
 .card-2 img{
   margin: 60px;
-  width: 400px;
+  width: 380px;
   height: 400px;
   justify-content: center;
+  flex-direction: column;
   object-fit: cover;
   border-radius: 15%;
   opacity: 50%;
 }
+/* Card-2 images hover functionality with scaling and box shadow and shadow increment*/
 .card-2 img:hover{
   opacity: 100%;
   transform: scale(1.5);
@@ -103,6 +109,7 @@ button{
   float: left;
   
 }
+/* Card 3 hover opacity */
 .card-3:hover{
   opacity: 100%;
 }
@@ -115,6 +122,7 @@ button{
   font-size: 200%;
   margin-top: 40px;
 }
+/*  */
 .card-3 ul{
  text-align: center;
  font-size: 20px;
@@ -145,7 +153,7 @@ article p{
   text-align: center;
   line-height: 80px;
   font-family: var(--ai-font);
-  font-size: 20px;
+  font-size: 30px;
   flex-wrap: wrap;
   color: #a19bb8;
 }
@@ -164,12 +172,12 @@ section p{
 }
 /* Media query to ensure viewport rules are kept for images and cards */
 @media screen and (max-width: 992px) {
-  .main{width: 50%;
+  .body{width: 50%;
     
 }
 }
 @media screen and (max-width: 768px) {
-    .main{width: 100%;
+    .body{width: 100%;
     
 }
 }

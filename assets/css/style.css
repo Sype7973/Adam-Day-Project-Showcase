@@ -38,12 +38,14 @@ header {
   line-height: 20px;
   font-family: var(--ai-font);
 }
+/* Avatar image - modifies its position and gives border radius */
 header img{
   max-width: 200px;
   max-height: 100px;
   display: block;
   border-radius: 20px;
 }
+/* header img hover functions; raising scale and gives box shadows */
 header img:hover{
   transform: scale(1.5);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

@@ -7,7 +7,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - My motivation was to create a webpage portfolio using the skills learn't in our Advanced HTML/CSS module
 - I built this portfolio to serve as a canvas to test my HTML and CSS Skills and to also mimic functionality in my challenge acceptance criteria
 - My portfolio webpage shows that I can utilise flex properties and media query to ensure my webpage design does not become distorted when shrinking for multiple sized viewports
-- I learn't how to use Flex-wrap and flex direction to ensure my elements did not distort when being shrunk. I also learn't that container naming and sorting your containers appropriately is the golden rule for CSS design.
+- I learn't how to use Flex-wrap and flex direction to ensure my elements did not distort when being shrunk, I learn't how to set up design to operate alongside what I will learn in Javascript modules. I also learn't that container naming and sorting your containers appropriately is the golden rule for CSS design. 
 
 
 ## Installation
@@ -16,7 +16,9 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Usage
 
-<!-- screenshot -->
+- this screenshot shows my project slideshow; unfortunately it does not link to a gallery YET! It also does not show the hover modification for the main center selection. 
+
+![My Project Slideshow screenshot](/assets/img/Screenshot-Project-Slideshow.PNG)
 
 
 

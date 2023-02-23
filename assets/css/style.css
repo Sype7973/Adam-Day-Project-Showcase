@@ -10,7 +10,7 @@
 }
 /* Body image background and flex properties */
 body{
-  background-image: url(/assets/img/Sparks.jpg);
+  background-image: url(/assets/img/Sparks.JPG);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -24,7 +24,7 @@ article{
   border-style: solid;
   width: 100%;
   height: 300px;
-  background-image: url(/assets/img/Galaxy.jpg);
+  background-image: url(/assets/img/Galaxy.JPG);
   background-size: inherit;
   background-repeat: no-repeat;
 }

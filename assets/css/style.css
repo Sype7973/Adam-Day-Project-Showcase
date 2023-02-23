@@ -165,22 +165,20 @@ nav ul{
 nav li{
   margin: 10px;
 }
-
 a{
   text-decoration: none;
   font-weight: bold;
   color: cadetblue;
 }
-
 article{
   width: auto;
 }
-
+/* Banner text style and positioning */
 article p{
   text-align: center;
   line-height: 80px;
   font-family: var(--ai-font);
-  font-size: 30px;
+  font-size: 25px;
   flex-wrap: wrap;
   color: #a19bb8;
 }

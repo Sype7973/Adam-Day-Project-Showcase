@@ -206,3 +206,8 @@ section p{
     
 }
 }
+#projectLinks{
+  text-align: center;
+  font-size: 20px;
+  font-family: var(--ai-font);
+}
